@@ -1,0 +1,119 @@
+html {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background: rgb(42, 42, 43);
+}
+
+h2 {
+  font-size: 24px;
+  color: #ff0062;
+  margin: 20px 10px 0px 10px ;
+}
+
+#Joey {
+  margin: 0px 10px 0px 10px;
+}
+
+progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 75%;
+  height: 30px;
+  border: 2px solid blanchedalmond;
+}
+
+progress[value]::-webkit-progress-bar,
+progress[value] {
+  background-color: aqua;
+  box-shadow: 0 2px 5px grey inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: orangered;
+  transition: all 0.2s ease-out;
+}
+
+progress[value]::-moz-progress-bar {
+  background-color: orange;
+  transition: all 0.2s ease-out;
+}
+
+button {
+  font: inherit;
+  background: #a927f5;
+  border: 1px solid greenyellow;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background: #ff0062;
+  border-color: white;
+}
+
+button:active {
+  background: #f30000;
+  border-color: #f70000;
+}
+
+#line-segment {
+  margin: 20px auto;
+  width: 500px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 1 4px 10px black;
+  background: rgb(164, 253, 253);
+}
+
+#controls {
+  margin: 10px auto;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 1 4px 10px black;
+  background: rgb(244, 253, 164);
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  width: 500px;
+  border-bottom: 1px solid brown;
+}
+
+#charme-rivals {
+  font-weight: bold;
+  color: white;
+  background: #ff0062;
+  border: 1px solid #ff0062;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 0.5rem;
+}
+img {
+  width: 65px;
+  margin: 10px 2px 2px 30px;
+}
+
+.disabled-rivals{
+  background-color:rgb(42, 42, 43);
+}
+.disabled-rivals:hover {
+  background-color:rgb(42, 42, 43);
+}
